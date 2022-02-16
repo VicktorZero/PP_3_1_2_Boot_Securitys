@@ -8,7 +8,6 @@ import java.util.Set;
 
 public interface UserDao {
      List<User> getAllUsers();
-//     Set<Role> getAllRoles();
      void saveUser(User user);
      void deleteUser(Long id);
      User findById(Long id);
